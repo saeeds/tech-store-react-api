@@ -1,4 +1,6 @@
 {
+  "connection": "default",
+  "collectionName": "products",
   "info": {
     "name": "product"
   },
@@ -24,8 +26,15 @@
     },
     "featured": {
       "type": "boolean"
+    },
+    "category": {
+      "type": "string"
+    },
+    "Free_shipping": {
+      "type": "boolean"
+    },
+    "extra_field": {
+      "type": "string"
     }
-  },
-  "connection": "default",
-  "collectionName": "products"
+  }
 }
